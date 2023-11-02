@@ -1,0 +1,26 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100vw; */
+    background: rgb(255,247,247);
+background: linear-gradient(142deg, rgb(238, 230, 230) 0%, rgba(223,119,65,1) 46%, rgba(167,106,12,1) 100%);
+}
+.main-box{
+    display: grid;
+    position: absolute;
+    height: 95%;
+    width: 95%;
+    margin: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    grid-template-columns: 11rem
+    auto;
+    background-color: rgba(230, 230, 230, 0.221);
+}
