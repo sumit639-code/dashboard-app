@@ -1,7 +1,10 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import "@/style/sidebar.css";
 import Image from "next/image";
 const sidebar = () => {
+  const [state, setstate] = useState(0);
+  console.log(state);
   return (
     <>
       <div className="sidebar">
@@ -15,7 +18,13 @@ const sidebar = () => {
           SHOP
         </span>
         <span className="menu">
-          <div className="menuitem">
+          <div
+            className={state===1?"menuitem color":"menuitem"}
+            onClick={() => {
+              setstate(1);
+              console.log(state);
+            }}
+          >
             <Image
               className="icons2"
               src="/icons/home.png"
@@ -24,7 +33,12 @@ const sidebar = () => {
             />
             Dashboard
           </div>
-          <div className="menuitem">
+          <div 
+          className={state===2?"menuitem color":"menuitem"}
+          onClick={() => {
+            setstate(2);
+            console.log(state);
+          }}>
             <Image
               className="icons2"
               src="/icons/clipboard.png"
@@ -33,7 +47,11 @@ const sidebar = () => {
             />
             orders
           </div>
-          <div className="menuitem">
+          <div className={state===3?"menuitem color":"menuitem"}
+            onClick={() => {
+              setstate(3);
+              console.log(state);
+            }}>
             <Image
               className="icons2"
               src="/icons/customer.png"
@@ -42,7 +60,11 @@ const sidebar = () => {
             />
             Customer
           </div>
-          <div className="menuitem">
+          <div className={state===4?"menuitem color":"menuitem"}
+            onClick={() => {
+              setstate(4);
+              console.log(state);
+            }}>
             <Image
               className="icons2"
               src="/icons/product.png"
@@ -51,7 +73,11 @@ const sidebar = () => {
             />
             Products
           </div>
-          <div className="menuitem">
+          <div className={state===5?"menuitem color":"menuitem"}
+            onClick={() => {
+              setstate(5);
+              console.log(state);
+            }}>
             <Image
               className="icons2"
               src="/icons/chart.png"
