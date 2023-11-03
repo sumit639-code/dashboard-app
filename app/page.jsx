@@ -1,10 +1,12 @@
 import React from 'react'
 import '@/style/mainpage.css';
+import Sidebar from '@/components/sidebar';
+
 const main = () => {
   return (
     <div className='main'>
       <div className='main-box'>
-        <div></div>
+        <Sidebar/>
       </div>
 
     </div>
