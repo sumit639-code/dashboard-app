@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "@/style/sidebar.css";
 import Image from "next/image";
 const sidebar = () => {
-  const [state, setstate] = useState(0);
+  const [state, setstate] = useState(1);
   console.log(state);
   return (
     <>
