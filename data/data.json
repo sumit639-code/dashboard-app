@@ -1,0 +1,22 @@
+[{
+    "id":1,
+    "title":"sales",
+    "cost":"25,004",
+    "time":"Last 24 Hour",
+    "total":70
+},
+{
+    "id":1,
+    "title":"Revenue",
+    "cost":"14,270",
+    "time":"Last 24 Hour",
+    "total":80
+}
+{
+    "id":1,
+    "title":"Expenses",
+    "cost":"4,270",
+    "time":"Last 24 Hour",
+    "total":60
+}
+]
