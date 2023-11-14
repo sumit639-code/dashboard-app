@@ -1,5 +1,6 @@
 import React from "react";
 import "@/style/maindash.css";
+import "@/style/card.css"
 import Cards from "@/components/cards";
 
 const maindash = () => {

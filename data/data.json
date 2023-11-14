@@ -3,20 +3,23 @@
     "title":"sales",
     "cost":"25,004",
     "time":"Last 24 Hour",
-    "total":70
+    "total":70,
+    "color":"#ffcc99"
 },
 {
     "id":1,
     "title":"Revenue",
     "cost":"14,270",
     "time":"Last 24 Hour",
-    "total":80
-}
+    "total":80,
+    "color":"#66ccff"
+},
 {
     "id":1,
     "title":"Expenses",
     "cost":"4,270",
     "time":"Last 24 Hour",
-    "total":60
+    "total":60,
+    "color":"#ffcc66"
 }
 ]
