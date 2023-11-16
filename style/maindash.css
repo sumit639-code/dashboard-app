@@ -1,3 +1,6 @@
 .maindash{
+    font-family: lato, sans-serif;
     margin: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }

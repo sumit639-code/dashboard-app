@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const sidebar = () => {
   const [state, setstate] = useState(1);
-  console.log(state);
+  // console.log(state);
   return (
     <>
       <div className="sidebar">
