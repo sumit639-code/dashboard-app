@@ -78,3 +78,8 @@
     transform: translateX(0px);
   }
 }
+.link{
+  text-decoration: none;
+  text-rendering: optimizeSpeed;
+  color: black;
+}
