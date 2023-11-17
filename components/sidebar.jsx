@@ -10,15 +10,17 @@ const sidebar = () => {
   return (
     <>
       <div className="sidebar">
-        <span className="title">
-          <Image
-            className="icons"
-            src="/icons/shopping-bag.png"
-            height={50}
-            width={50}
-          />
-          SHOP
-        </span>
+        <Link href="/" className="link">
+          <span className="title">
+            <Image
+              className="icons"
+              src="/icons/shopping-bag.png"
+              height={50}
+              width={50}
+            />
+            SHOP
+          </span>
+        </Link>
         <span className="menu">
           <Link href="/Maindashboard" className="link">
             <div

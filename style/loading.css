@@ -1,0 +1,34 @@
+
+/* 
+.load{
+    color:white;
+    width: 10%;
+    height: 10px;
+    background-color: black;
+    border-radius:20px;
+  animation-name: load 2s infinite;
+} */
+.main{
+/*   display:block; */
+    display: flex;
+/*     align-items: center; */
+/*     justify-content: center; */
+/*     height: 100%; */
+    position:relative;
+    
+}
+
+.load{
+    width: 10%;
+    height: 10px;
+    background-color: black;
+    border-radius:20px;
+    animation-name: load;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0, 0, 0, 1);
+}
+@keyframes load {
+    0%{width: 0%;}
+    100%{width:100%}
+}
